@@ -1,5 +1,7 @@
 # ClipRecallBar
 
+**🌐 Website:** [turhe123.github.io/clip-recall-bar](https://turhe123.github.io/clip-recall-bar/)
+
 A keyboard-first clipboard history popup in your menu bar that filters as you type and pastes on Return.
 
 ![macOS 14+](https://img.shields.io/badge/macOS-14%2B-blue)
@@ -45,7 +47,21 @@ ClipRecallBar is a free, open-source, 100% native, backend-free alternative to p
 
 ## Screenshots
 
-_Screenshots coming soon._
+<p align="center"><img src="docs/screenshots/01-history-panel.png" alt="ClipRecallBar clipboard history panel" width="720"></p>
+
+<p align="center"><em>The floating history panel opened with ⇧⌘V: a focused search field, a pinned color code on top, source-app icons, relative times and ⌘1–⌘9 shortcuts.</em></p>
+
+<p align="center"><img src="docs/screenshots/02-filter-as-you-type.png" alt="History panel filtered by the search term git" width="560"></p>
+
+<p align="center"><em>Typing &quot;git&quot; instantly narrows the history to matching clips, ready to paste with Return.</em></p>
+
+<p align="center"><img src="docs/screenshots/03-settings.png" alt="ClipRecallBar Settings window" width="560"></p>
+
+<p align="center"><em>Settings for history size, the global shortcut, launch at login, concealed-item privacy, Accessibility status and ignored apps.</em></p>
+
+<p align="center"><img src="docs/screenshots/04-menu.png" alt="ClipRecallBar menu bar status menu" width="560"></p>
+
+<p align="center"><em>The menu bar menu with Open History, Pause Capture, Settings, Support / Donate and Quit.</em></p>
 
 ## Install
 

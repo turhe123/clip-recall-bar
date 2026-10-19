@@ -1,0 +1,6 @@
+[
+  {"file":"01-history-panel.png","caption":"The floating history panel opened with ⇧⌘V: a focused search field, a pinned color code on top, source-app icons, relative times and ⌘1–⌘9 shortcuts.","alt":"ClipRecallBar clipboard history panel"},
+  {"file":"02-filter-as-you-type.png","caption":"Typing \"git\" instantly narrows the history to matching clips, ready to paste with Return.","alt":"History panel filtered by the search term git"},
+  {"file":"03-settings.png","caption":"Settings for history size, the global shortcut, launch at login, concealed-item privacy, Accessibility status and ignored apps.","alt":"ClipRecallBar Settings window"},
+  {"file":"04-menu.png","caption":"The menu bar menu with Open History, Pause Capture, Settings, Support / Donate and Quit.","alt":"ClipRecallBar menu bar status menu"}
+]

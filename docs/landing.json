@@ -1,0 +1,24 @@
+{
+  "seo_title": "Keyboard-first clipboard history for macOS",
+  "seo_description": "ClipRecallBar is a free, open-source clipboard history for the macOS menu bar. Press Shift-Command-V, type to filter, press Return to paste. No network.",
+  "hero_title_line1": "Your clipboard,",
+  "hero_title_accent": "one shortcut away.",
+  "hero_sub": "ClipRecallBar keeps your copy history in the menu bar. Press ⇧⌘V, type to filter, and hit Return to paste into the app you were using.",
+  "features_title": "Fast, quiet, and private.",
+  "features_sub": "Everything is built around the keyboard, and your history never leaves your Mac.",
+  "features": [
+    {"icon": "keyboard", "title": "Search, then paste on Return", "desc": "Filter as you type with case- and diacritic-insensitive matching, then use the arrow keys and Return. Option-Return pastes as plain text, and ⌘1 to ⌘9 paste a row directly."},
+    {"icon": "clipboard", "title": "Text, rich text, files, images", "desc": "Captures plain text, RTF, file URLs and images. Duplicates move to the top instead of piling up, and history size is adjustable from 20 to 999 entries."},
+    {"icon": "lock", "title": "Skips password manager copies", "desc": "Items marked concealed or transient are never stored. You can also ignore specific apps by bundle identifier or pause capture from the menu."},
+    {"icon": "sparkles", "title": "Pin what you reuse", "desc": "Press ⌘P to pin an entry. Pinned items sort to the top and survive Clear History."},
+    {"icon": "window", "title": "Floating panel near your pointer", "desc": "A global hotkey opens a compact borderless panel with the search field already focused. The shortcut is configurable in Settings."},
+    {"icon": "shield", "title": "No network, local storage", "desc": "There are no accounts, servers or network code. History is saved as local files, with a corrupt file moved aside rather than crashing the app."}
+  ],
+  "permissions_step": "When prompted, grant Accessibility in System Settings › Privacy & Security so ClipRecallBar can send ⌘V to paste; without it, items are still copied and you press ⌘V yourself.",
+  "faq": [
+    {"q": "Is ClipRecallBar really free and open source?", "a": "Yes. It is released under the MIT license, with no accounts, subscriptions or ads. If it helps you, there is an optional Support / Donate button in the menu."},
+    {"q": "What permissions does it need?", "a": "Accessibility, only to send the ⌘V keystroke that pastes into your previous app. If you decline, everything else works and a banner reminds you to press ⌘V. Launch at login is optional and may ask for approval under Login Items; it does not request Screen Recording or Microphone access."},
+    {"q": "Where is my clipboard data stored?", "a": "Only on your Mac, in ~/Library/Application Support/ClipRecallBar/. Text and metadata are saved as JSON and images as PNG files. The app makes no network connections."},
+    {"q": "Why isn't the app notarized?", "a": "Notarization requires a paid Apple Developer account, and this is a free open-source project. Right-click the app and choose Open once to run it, or build it yourself from source with Xcode and XcodeGen."}
+  ]
+}
