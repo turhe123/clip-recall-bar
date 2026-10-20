@@ -100,6 +100,17 @@ The app is produced at `build/Build/Products/Release/ClipRecallBar.app`.
 
 ClipRecallBar does **not** request Screen Recording or Microphone access, and it makes no network connections. The global hotkey uses Carbon `RegisterEventHotKey`, which needs no permission. History is stored locally in `~/Library/Application Support/ClipRecallBar/`.
 
+## Built with AI
+
+ClipRecallBar was written by [Claude Code](https://claude.com/claude-code) inside an automated pipeline, from a plain-English spec. No code, binaries or assets from any commercial app were used; it is a clean-room reimplementation of a feature set, not a copy.
+
+What that means in practice:
+
+- The full source is in this repo under the MIT license. Read it before you run it.
+- No network calls, no analytics, no third-party dependencies. Only Apple frameworks.
+- Ad-hoc signed and not notarized, which is why Gatekeeper warns on first launch.
+- It has had less human review than a hand-written app. Bug reports and pull requests are welcome.
+
 ## Support ❤️
 
 If ClipRecallBar is useful to you, you can support its development:
